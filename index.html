@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>พรรคนับหนึ่ง เบอร์ 7 - โรงเรียนยโสธรพิทยาคม</title>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">พรรคนับหนึ่ง <span class="highlight">#7</span></div>
+        <ul class="menu">
+            <li onclick="showPage('home')" class="active-link">หน้าหลัก</li>
+            <li onclick="showPage('policies')">10 นโยบาย</li>
+            <li onclick="showPage('members')">สมาชิกพรรค</li>
+        </ul>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <section id="home" class="page active">
+        <div class="hero">
+            <div class="hero-content">
+                <span class="tag">เบอร์ 7</span>
+                <h1>พรรคนับหนึ่ง</h1>
+                <h2>ยโสธรพิทยาคม ต้องดีกว่าเดิม</h2>
+                <p>"เริ่มต้นนับหนึ่ง... สู่การเปลี่ยนแปลงที่ยั่งยืน"</p>
+                <button class="cta-btn" onclick="showPage('policies')">ดูนโยบายของเรา</button>
+            </div>
+            <div class="hero-image">
+                <div class="img-placeholder"><i class="fas fa-user-graduate"></i></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="policies" class="page">
+        <div class="container">
+            <h2 class="section-title">10 นโยบายทำจริง</h2>
+            <p class="subtitle">เพื่อชาวยโสธรพิทยาคม</p>
+            
+            <div class="policy-grid">
+                <div class="card policy-card" style="--i:1">
+                    <div class="icon"><i class="fas fa-wifi"></i></div>
+                    <h3>1. Y.P. Smart WiFi</h3>
+                    <p>ขยายจุดกระจายสัญญาณเน็ต ครอบคลุมทั่วโรงเรียน เน็ตแรงไม่มีสะดุด</p>
+                </div>
+                <div class="card policy-card" style="--i:2">
+                    <div class="icon"><i class="fas fa-toilet"></i></div>
+                    <h3>2. ห้องน้ำสะอาด 5 ดาว</h3>
+                    <p>ปรับปรุงความสะอาด มีสบู่และกระดาษชำระตลอดวัน</p>
+                </div>
+                <div class="card policy-card" style="--i:3">
+                    <div class="icon"><i class="fas fa-gamepad"></i></div>
+                    <h3>3. E-Sports Tournament</h3>
+                    <p>จัดแข่งเกมประจำภาคเรียน ส่งเสริมทักษะยุคดิจิทัล</p>
+                </div>
+                <div class="card policy-card" style="--i:4">
+                    <div class="icon"><i class="fas fa-guitar"></i></div>
+                    <h3>4. ลานดนตรีอิสระ</h3>
+                    <p>เปิดพื้นที่แสดงความสามารถดนตรีช่วงพักกลางวัน</p>
+                </div>
+                <div class="card policy-card" style="--i:5">
+                    <div class="icon"><i class="fas fa-book-reader"></i></div>
+                    <h3>5. ติวเตอร์พี่สอนน้อง</h3>
+                    <p>โครงการรุ่นพี่ติวรุ่นน้องก่อนสอบ ฟรีไม่มีค่าใช้จ่าย</p>
+                </div>
+                <div class="card policy-card" style="--i:6">
+                    <div class="icon"><i class="fas fa-utensils"></i></div>
+                    <h3>6. โรงอาหาร Digital</h3>
+                    <p>ระบบแจ้งเมนูอาหารออนไลน์ ลดปัญหาการต่อคิวนาน</p>
+                </div>
+                <div class="card policy-card" style="--i:7">
+                    <div class="icon"><i class="fas fa-first-aid"></i></div>
+                    <h3>7. Care Corner</h3>
+                    <p>มุมปรึกษาปัญหาใจและสุขภาพจิต โดยผู้เชี่ยวชาญ</p>
+                </div>
+                <div class="card policy-card" style="--i:8">
+                    <div class="icon"><i class="fas fa-recycle"></i></div>
+                    <h3>8. ขยะแลกแต้ม</h3>
+                    <p>แยกขยะแลกคะแนนจิตพิสัย หรือของรางวัล</p>
+                </div>
+                <div class="card policy-card" style="--i:9">
+                    <div class="icon"><i class="fas fa-bullhorn"></i></div>
+                    <h3>9. เสียงนักเรียนมีความหมาย</h3>
+                    <p>กล่องรับความคิดเห็นออนไลน์ ส่งตรงถึงสภาฯ</p>
+                </div>
+                <div class="card policy-card" style="--i:10">
+                    <div class="icon"><i class="fas fa-tshirt"></i></div>
+                    <h3>10. Free Day ศุกร์หรรษา</h3>
+                    <p>รณรงค์ใส่ชุดไปรเวทที่สุภาพ ทุกวันศุกร์สุดท้ายของเดือน</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="members" class="page">
+        <div class="container">
+            <h2 class="section-title">ทีมงานคุณภาพ</h2>
+            <div class="members-grid">
+                <div class="member-card president">
+                    <div class="member-img"><i class="fas fa-user-tie"></i></div>
+                    <h3>นายรักเรียน เพียรศึกษา</h3>
+                    <p class="role">ผู้สมัครประธานนักเรียน</p>
+                </div>
+                <div class="sub-members">
+                    <div class="member-card small">
+                        <div class="member-img"><i class="fas fa-user"></i></div>
+                        <h3>นางสาวใจดี</h3>
+                        <p class="role">รองประธาน 1</p>
+                    </div>
+                    <div class="member-card small">
+                        <div class="member-img"><i class="fas fa-user"></i></div>
+                        <h3>นายกล้าหาญ</h3>
+                        <p class="role">รองประธาน 2</p>
+                    </div>
+                    <div class="member-card small">
+                        <div class="member-img"><i class="fas fa-user"></i></div>
+                        <h3>นางสาวมีวินัย</h3>
+                        <p class="role">เหรัญญิก</p>
+                    </div>
+                    <div class="member-card small">
+                        <div class="member-img"><i class="fas fa-user"></i></div>
+                        <h3>นายสร้างสรรค์</h3>
+                        <p class="role">ประชาสัมพันธ์</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 พรรคนับหนึ่ง เบอร์ 7 | โรงเรียนยโสธรพิทยาคม</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
